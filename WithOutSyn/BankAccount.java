@@ -2,7 +2,7 @@ package WithOutSyn;
 
 public class BankAccount {
     int bal=1000;
-    void withdraw(int amount)
+    synchronized public void withdraw(int amount)
     {
         if(bal >= amount)
         {
@@ -14,7 +14,7 @@ public class BankAccount {
             // TODO: handle exception
                 System.out.println("Exception");
             }
-                bal=bal-amount;
+                bal=bal-amount; //critical section      
                 System.out.println(Thread.currentThread().getName()+" Completed withdraw. Remaining balance="+bal);
         }
         else{
