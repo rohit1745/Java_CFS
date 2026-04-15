@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Java_8.test",
+            "projectName": "JAVA_CFS_52d70d00"
+        },
+        {
+            "type": "java",
             "name": "runnableDemo",
             "request": "launch",
             "mainClass": "RunnableWithProblem.runnableDemo",
