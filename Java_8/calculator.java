@@ -9,6 +9,9 @@ public interface calculator {
      
         
      }
+     public interface Salary{
+        void display(double salary);
+     }
      
     
 
@@ -26,6 +29,11 @@ class test
             System.out.println(name);
         };
         p.display("Rohit");
+
+        Salary s=(salary) ->{
+            System.out.println(salary);
+        };
+        s.display(500000);
     }
 }
    
