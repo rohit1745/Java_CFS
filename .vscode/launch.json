@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "Collection.RemoveDuplicates",
+            "projectName": "JAVA_CFS_52d70d00"
+        },
+        {
+            "type": "java",
             "name": "ArrayListDemo",
             "request": "launch",
             "mainClass": "Collection.ArrayListDemo",
