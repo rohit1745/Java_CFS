@@ -16,12 +16,14 @@ public class CursorDemo {
             String data = it.next();
             
             if (data.equals("Rohit")) {
-                System.out.println("Found");
+               // System.out.println("Found");
+                it.remove();
             } 
             else {
                 System.out.println(data);
             }
         }
+        System.out.println(a);
         
 
     }
