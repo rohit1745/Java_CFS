@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CursorDemo",
+            "request": "launch",
+            "mainClass": "Collection.CursorDemo",
+            "projectName": "JAVA_CFS_52d70d00"
+        },
+        {
+            "type": "java",
             "name": "QueueDemo",
             "request": "launch",
             "mainClass": "Collection.QueueDemo",

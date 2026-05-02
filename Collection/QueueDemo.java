@@ -12,10 +12,15 @@ public class QueueDemo {
         q.add(30);
         q.add(40);
         System.out.println(q);
-
+        System.out.println(q.poll());  
         //Smallest value --->highest Priority [ Queue<Integer> q = new PriorityQueue<>(); ]
         //Bigest value ---->highest Priority [ Queue<Integer> q = new PriorityQueue<>(Comparator.reverseOrder());]
-        System.out.println(q.poll());
+        System.out.println("front elemrnt:"+q.peek()); // View Front element
+        System.out.println(q);
+        System.out.println("Insert Element:"+q.add(50));  // Insert element
+        System.out.println(q);
+        System.out.println("Insert Safely:"+q.offer(100)); //Insert Safely
+        System.out.println(q);
             
         
     }
