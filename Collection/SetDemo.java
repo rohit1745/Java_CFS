@@ -22,6 +22,15 @@ public class SetDemo {
         a.add("Null");  //it can print duplicate element
         a.add("Null");
         System.out.println(a);
+
+
+
+        HashSet<Integer> h=new HashSet<>(4, 0.5f);
+        h.add(100);
+        h.add(200);
+        h.add(300);
+        System.out.println(h);
+
     }
     
 }
