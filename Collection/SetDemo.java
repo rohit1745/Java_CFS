@@ -4,6 +4,8 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 public class SetDemo {
     public static void main(String[] args) {
@@ -25,11 +27,29 @@ public class SetDemo {
 
 
 
+        //Hash Set
         HashSet<Integer> h=new HashSet<>(4, 0.5f);
         h.add(100);
         h.add(200);
         h.add(300);
-        System.out.println(h); //Not print in order
+        System.out.println("Hash Seth:"+h); //Not print in order
+
+
+        //Sorted Set
+        SortedSet<Integer> s = new TreeSet<>();
+        s.add(100);
+        s.add(200);
+        s.add(10);
+        s.add(50);
+        s.add(50);
+
+
+        System.out.println("SortedSet:"+s); //print in order
+
+
+        
+            
+        
 
     }
     
