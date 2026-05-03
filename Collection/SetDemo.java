@@ -29,7 +29,7 @@ public class SetDemo {
         h.add(100);
         h.add(200);
         h.add(300);
-        System.out.println(h);
+        System.out.println(h); //Not print in order
 
     }
     

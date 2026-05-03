@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Capacity",
+            "request": "launch",
+            "mainClass": "Collection.Capacity",
+            "projectName": "JAVA_CFS_52d70d00"
+        },
+        {
+            "type": "java",
             "name": "SetDemo",
             "request": "launch",
             "mainClass": "Collection.SetDemo",
