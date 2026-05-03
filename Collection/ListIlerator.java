@@ -17,10 +17,12 @@ public class ListIlerator {
 
             if(data==10)
             ListIterator.remove();
+            ListIterator.add(200);
             
             if(data==30)
             {
             ListIterator.add(100);
+            //ListIterator.nextIndex();
             }
 
             
