@@ -17,7 +17,7 @@ public class TreeSet_Demo {
 
 
 
-                System.out.println("======================================================================");
+        System.out.println("======================================================================");
 
 
 
@@ -41,7 +41,15 @@ public class TreeSet_Demo {
         nset.add(30);
         nset.add(40);
         System.out.println("Navigable set:"+nset);
-            
+
+        int key=25;
+
+        //Navigation key
+
+        System.out.println("Lower than :"+key+":"+nset.lower(key)); //strictly below
+        System.out.println("Floor than :"+key+":"+nset.floor(key)); //equal or below
+        System.out.println("Higher than :"+key+":"+nset.higher(key)); //strictly above
+        System.out.println("Ceiling than :"+key+":"+nset.ceiling(key)); //equal or above
         
 
             
