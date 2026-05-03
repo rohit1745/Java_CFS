@@ -15,6 +15,11 @@ public class MapDemo {
         String value=map.get(1);  //print particular key ex=1
         System.out.println(value);
 
+        for(Map.Entry<Integer,String> entry : map.entrySet())
+        {
+            System.out.println(entry.getKey() + " ----> " + entry.getValue());
+        }
+
 
         if(map.containsKey(3))  //findout key
         {
