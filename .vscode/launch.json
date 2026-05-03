@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MapDemo",
+            "request": "launch",
+            "mainClass": "Collection.MapDemo",
+            "projectName": "JAVA_CFS_52d70d00"
+        },
+        {
+            "type": "java",
             "name": "TreeSetBasicDemo",
             "request": "launch",
             "mainClass": "Collection.TreeSetBasicDemo",
