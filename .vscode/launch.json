@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedHashMappDemo",
+            "request": "launch",
+            "mainClass": "Collection.LinkedHashMappDemo",
+            "projectName": "JAVA_CFS_52d70d00"
+        },
+        {
+            "type": "java",
             "name": "FrequencyCount",
             "request": "launch",
             "mainClass": "Collection.FrequencyCount",
