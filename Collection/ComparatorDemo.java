@@ -26,8 +26,9 @@ class Employee {
 class MyComparator implements Comparator<Employee>{
 
     @Override
-    public int compare(Employee o1, Employee o2) {
-        return o2.id-o1.id;
+    public int compare(Employee o2, Employee o1) {
+        return o1.sal-o2.sal; //sorting by salary
+        //return o1.id-o2.id; //sarting by emlpoyee ID
     }
 }
 
@@ -35,10 +36,10 @@ public class ComparatorDemo {
 
     public static void main(String[] args) {
         Map<Employee,String> map=new TreeMap<>(new MyComparator());
-        map.put(new Employee(1,"Raj",10001),"RAJ");
-        map.put(new Employee(4,"Amit",34344),"Rohit");
-        map.put(new Employee(2,"Rohit",232323),"Ajay");
-        map.put(new Employee(6,"OM",390090),"OM");
+        map.put(new Employee(1,"Raj",100000),"RAJ");
+        map.put(new Employee(4,"Amit",200000),"Amit");
+        map.put(new Employee(2,"Rohit",300000),"Ajay");
+        map.put(new Employee(6,"OM",400000),"OM");
 
         System.out.println(map);
     }
