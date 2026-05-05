@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class SyncronizedMap {
     public static void main(String[] args) {
@@ -21,6 +22,14 @@ public class SyncronizedMap {
         map.put("Rohit",null);
         System.out.println(con); //It not allow to print null value compare to HashMap
 
+
+        CopyOnWriteArrayList copy=new CopyOnWriteArrayList<>();
+        copy.add(100);
+        copy.add(100);
+        copy.add(200);
+        copy.add(300);
+        copy.add(500);
+        System.out.println(copy);
 
 
     }
