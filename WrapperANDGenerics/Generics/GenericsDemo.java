@@ -10,7 +10,7 @@ public class GenericsDemo {
         list1.add(true);
         System.out.println(list1);
 
-        for(Object obj:list1)
+        for(Object obj:list1) //threr is a old method to convert primitives
         {
             if(obj instanceof Integer)
             {
