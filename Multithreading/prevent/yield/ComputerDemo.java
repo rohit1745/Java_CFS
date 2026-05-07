@@ -1,7 +1,7 @@
 package prevent.yield;
 
-public class Computer extends Thread {
-    public Computer(String name)
+public class ComputerDemo extends Thread {
+    public ComputerDemo(String name)
 
     {
         super(name);
