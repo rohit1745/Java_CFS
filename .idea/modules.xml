@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/JAVA_CFS.iml" filepath="$PROJECT_DIR$/JAVA_CFS.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Advance_java.iml" filepath="$PROJECT_DIR$/Advance_java.iml" />
+>>>>>>> f40d83004d441830f3a8ec4d00defc8da4f4de64
     </modules>
   </component>
 </project>
