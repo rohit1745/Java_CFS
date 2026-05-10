@@ -14,6 +14,7 @@ public class MetaDataDemo {
                     "root",
                     "Rohit@1745@"
 
+
             );
 
             DatabaseMetaData metaDB = con.getMetaData();
@@ -21,6 +22,7 @@ public class MetaDataDemo {
             System.out.println("Driver Name:  "+metaDB.getDriverName());
             System.out.println("Driver Version:  "+metaDB.getDriverVersion());
             System.out.println("Logged in user:  "+metaDB.getUserName());
+            System.out.println("Database url:  "+metaDB.getURL());
             System.out.println("Database url:  "+metaDB.getURL());
             System.out.println("===========================================================");
 
