@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3cb1e5d6-e1ec-47ad-87b4-f73bc8eb36d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MetaDataDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MetaDataDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/createDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DBConfigStd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBConfigStd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentInsertDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentInsertDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentManager.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Core_Java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core_Java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,8 @@
     "Application.Driver.executor": "Run",
     "Application.InsertDemo.executor": "Run",
     "Application.MetaDataDemo.executor": "Run",
+    "Application.StudentInsertDB.executor": "Run",
+    "Application.StudentManager.executor": "Run",
     "Application.createDemo.executor": "Run",
     "Application.test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -72,7 +73,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InsertDemo">
+  <component name="RunManager" selected="Application.StudentManager">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="untitled" />
@@ -87,8 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MetaDataDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MetaDataDemo" />
+    <configuration name="StudentInsertDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentInsertDB" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentManager" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,20 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentManager" />
+        <item itemvalue="Application.StudentInsertDB" />
         <item itemvalue="Application.InsertDemo" />
         <item itemvalue="Application.createDemo" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.MetaDataDemo" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
