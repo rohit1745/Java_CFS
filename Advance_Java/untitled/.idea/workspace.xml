@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb1e5d6-e1ec-47ad-87b4-f73bc8eb36d3" name="Changes" comment="mini project Student Managment System">
+    <list default="true" id="3cb1e5d6-e1ec-47ad-87b4-f73bc8eb36d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library_Management_System/DBConfigLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library_Management_System/DBConfigLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library_Management_System/library_management_sys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library_Management_System/library_management_sys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Core_Java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core_Java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
