@@ -9,13 +9,13 @@ public class StudentManager {
 
             while (true)
             {
-                System.out.println("\n===============Student Managment System");
+                System.out.println("\n===============Student Managment System====================");
                 System.out.println("1.Insert Student");
                 System.out.println("2.Update Marks");
                 System.out.println("3.View Marks");
                 System.out.println("4.Delete Student");
-
-                System.out.println("5.Exit");
+                System.out.println("5.View all Student");
+                System.out.println("6.Exit");
                 System.out.println("enter Your Choice");
                 int choice=sc.nextInt();
 
@@ -50,7 +50,14 @@ public class StudentManager {
                         ps1.setDouble(1,mark);
                         ps1.setInt(2,rollNo);
                         int um= ps1.executeUpdate();
-                        System.out.println("Student Marks Insert "+um);
+                        if (um>0)
+                        {
+                            System.out.println("Marks Update successful");
+                        }
+                        else {
+                            System.out.println("Student Not Found...........");
+                        }
+
                         break;
 
                     case 3:    //View Marks
@@ -76,11 +83,38 @@ public class StudentManager {
                         PreparedStatement ps3=con.prepareStatement("DELETE FROM students WHERE name = ?");
                         ps3.setString(1,std_name);
                         int ds=ps3.executeUpdate();
-                        System.out.println("Delete Student Data Successful:"+ds);
+                        if(ds>0)
+                        {
+                            System.out.println("Delete Student Data Successful:"+ds);
+                        }
+                        else {
+                            System.out.println("Student not found");
+                        }
+
+                        break;
+
+                    case 5: //View all Students
+//
+                        PreparedStatement ps4 = con.prepareStatement("SELECT * FROM students");
+
+                        ResultSet rs = ps4.executeQuery();
+
+                        System.out.println("\nRoll_No\tName\tMarks\tAddress");
+                        System.out.println("====================================");
+
+                        while(rs.next())
+                        {
+                            System.out.println(
+                                    rs.getInt("roll_no") + "\t" +
+                                            rs.getString("name") + "\t" +
+                                            rs.getDouble("marks") + "\t" +
+                                            rs.getString("address")
+                            );
+                        }
                         break;
 
 
-                    case 5://
+                    case 6://  Exit
                         System.out.println("exiting...........");
                         System.exit(0);
 
