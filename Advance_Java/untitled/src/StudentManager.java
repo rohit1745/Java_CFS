@@ -94,7 +94,7 @@ public class StudentManager {
                         break;
 
                     case 5: //View all Students
-//
+
                         PreparedStatement ps4 = con.prepareStatement("SELECT * FROM students");
 
                         ResultSet rs = ps4.executeQuery();

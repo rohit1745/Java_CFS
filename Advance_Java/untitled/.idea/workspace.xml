@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3cb1e5d6-e1ec-47ad-87b4-f73bc8eb36d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Library_Management_System/DBConfigLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library_Management_System/DBConfigLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Library_Management_System/library_management_sys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library_Management_System/library_management_sys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Core_Java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Core_Java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -51,6 +53,7 @@
     &quot;Application.StudentInsertDB.executor&quot;: &quot;Run&quot;,
     &quot;Application.StudentManager.executor&quot;: &quot;Run&quot;,
     &quot;Application.createDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.library_management_sys.executor&quot;: &quot;Run&quot;,
     &quot;Application.test.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -72,14 +75,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StudentManager">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Driver" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.library_management_sys">
     <configuration name="InsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InsertDemo" />
       <module name="untitled" />
@@ -108,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="library_management_sys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Library_Management_System.library_management_sys" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Library_Management_System.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.library_management_sys" />
         <item itemvalue="Application.StudentManager" />
         <item itemvalue="Application.StudentInsertDB" />
         <item itemvalue="Application.InsertDemo" />
         <item itemvalue="Application.createDemo" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
