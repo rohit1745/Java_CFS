@@ -18,6 +18,8 @@ public class StudentRegServlet extends GenericServlet {
         int marks= Integer.parseInt(res.getParameter("marks"));
         int rollNo= Integer.parseInt(res.getParameter("rollNo"));
         String country= res.getParameter("country");
+        System.out.println("data enter");
+
 
         student sc=new student(name,email,marks,rollNo,country);
         System.out.println(sc);
