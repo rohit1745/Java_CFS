@@ -8,40 +8,34 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-@WebServlet("/student_reg")
-
+@WebServlet("/reg")
 public class StudentRegistrationServlet extends HttpServlet {
 
-    public static final String KEY="STD_LIST";
+    private static final String KEY="STD_LIST";
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+
         String name=req.getParameter("name");
-        String roll=req.getParameter("roll");
+        String roll=req.getParameter("roll_no");
         String course=req.getParameter("course");
 
+        String marksStr=req.getParameter("marks");
+        int marks=(marksStr==null || marksStr.isEmpty()) ? 0 :Integer.parseInt(marksStr);
 
-        int marks=Integer.parseInt(req.getParameter("marks"));
-
-        Student student =new Student(name,roll,course,marks);
+        Student student=new Student(name,roll,course,marks);
         List<Student> list=getOrCreateList();
         list.add(student);
 
-
-        res.sendRedirect("Student");
-
-
-
+        res.sendRedirect("students");
 
     }
 
-    private List<Student> getOrCreateList(){
+    private List<Student> getOrCreateList() {
 
         ServletContext ctx=getServletContext();
         synchronized (ctx)
@@ -54,11 +48,5 @@ public class StudentRegistrationServlet extends HttpServlet {
             }
             return list;
         }
-
-
-
     }
-
-
 }
-

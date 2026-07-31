@@ -1,15 +1,14 @@
 package com.cfs.web;
 
 public class Student {
-
     private final String name;
-    private final String roll;
+    private final String roll_no;
     private final String course;
     private final int marks;
 
-    public Student(String name, String roll, String course, int marks) {
+    public Student(String name, String roll_no, String course, int marks) {
         this.name = name;
-        this.roll = roll;
+        this.roll_no = roll_no;
         this.course = course;
         this.marks = marks;
     }
@@ -18,8 +17,8 @@ public class Student {
         return name;
     }
 
-    public String getRoll() {
-        return roll;
+    public String getRoll_No() {
+        return roll_no;
     }
 
     public String getCourse() {
@@ -34,7 +33,7 @@ public class Student {
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
-                ", roll='" + roll + '\'' +
+                ", roll_no='" + roll_no    +    '\'' +
                 ", course='" + course + '\'' +
                 ", marks=" + marks +
                 '}';
